@@ -9,7 +9,7 @@ using StardewValley;
 namespace Trash4Elliott
 {
     /// <summary>The mod entry point.</summary>
-    internal sealed class ModEntry : Mod
+    internal sealed class Mod : StardewModdingAPI.Mod
     {
 
         /// <summary>The mod entry point, called after the mod is first loaded.</summary>
@@ -32,13 +32,12 @@ namespace Trash4Elliott
             // ignore if player hasn't loaded a save yet
             if (!Context.IsWorldReady)
                 return;
-            this.Monitor.Log(e.NewLocation.characters.ToString(), LogLevel.Debug);
+
             if (e.NewLocation.characters.Contains(Game1.getCharacterFromName("Elliott")))
-                {
-                Item trash = new StardewValley.Object(168,1); 
+            {
+                Item trash = new StardewValley.Object(168, 1);
                 Game1.player.addItemByMenuIfNecessary(trash);
-                this.Monitor.Log("Elliott is here!!!", LogLevel.Debug); // Elliott
-                }
+            }
         }
 
         /// <summary>
@@ -58,12 +57,11 @@ namespace Trash4Elliott
                 {
                     Item trash = new StardewValley.Object(168, 1);
                     Game1.player.addItemByMenuIfNecessary(trash);
-                    this.Monitor.Log("Elliott is here!!!", LogLevel.Debug); // Elliott
                     return;
                 }
             }
 
-                
+
         }
 
     }
