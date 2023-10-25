@@ -6,7 +6,7 @@ A mod that gives you trash every time you're in the same area as Elliott, to mak
 ## Install and Dependencies
 
 1. Install the latest version of [SMAPI](https://smapi.io/).
-2. Install this mod (link in next commit).
+2. Install [this mod](https://www.nexusmods.com/stardewvalley/mods/18882/).
 3. Run the game through SMAPI (see [here](https://stardewvalleywiki.com/Modding:Player_Guide/Getting_Started) for a guide on using SMAPI).
 
 This mod does not have any dependencies.
