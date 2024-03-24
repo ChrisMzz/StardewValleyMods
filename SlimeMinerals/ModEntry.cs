@@ -75,11 +75,11 @@ namespace SlimeMinerals
                         loot.Add(new StardewValley.Object("168", 1)); // trash TEST -- never runs, change 1s to 255s to make always it run
                         break;
 
-                    case Netcode.NetColor rgb when (63 < rgb.R && rgb.R < 83) && (82 < rgb.G && rgb.G < 91) && (80 < rgb.B && rgb.B < 97):
+                    case Netcode.NetColor rgb when (160 < rgb.R && rgb.R < 211) && (209 < rgb.G && rgb.G < 232) && (204 < rgb.B && rgb.B < 247):
                         loot.Add(new StardewValley.Object("564", 1)); //  opal
                         break;
 
-                    case Netcode.NetColor rgb when (15 < rgb.R && rgb.R < 28) && (12 < rgb.G && rgb.G < 25) && (36 < rgb.B && rgb.B < 46):
+                    case Netcode.NetColor rgb when (38 < rgb.R && rgb.R < 71) && (30 < rgb.G && rgb.G < 64) && (92 < rgb.B && rgb.B < 117):
                         loot.Add(new StardewValley.Object("565", 1)); // fire opal
                         break;
 
@@ -87,91 +87,91 @@ namespace SlimeMinerals
                         loot.Add(new StardewValley.Object("539", 1)); // bixite
                         break;
 
-                    case Netcode.NetColor rgb when (73 < rgb.R && rgb.R < 84) && (22 < rgb.G && rgb.G < 40) && (22 < rgb.B && rgb.B < 40):
+                    case Netcode.NetColor rgb when (186 < rgb.R && rgb.R < 214) && (56 < rgb.G && rgb.G < 102) && (56 < rgb.B && rgb.B < 76):
                         loot.Add(new StardewValley.Object("540", 1)); // baryte
                         break;
 
-                    case Netcode.NetColor rgb when (80 < rgb.R && rgb.R < 95) && (56 < rgb.G && rgb.G < 91) && (65 < rgb.B && rgb.B < 75):
+                    case Netcode.NetColor rgb when (204 < rgb.R && rgb.R < 242) && (143 < rgb.G && rgb.G < 161) && (166 < rgb.B && rgb.B < 232):
                         loot.Add(new StardewValley.Object("543", 1)); // dolomite
                         break;
 
-                    case Netcode.NetColor rgb when (90 < rgb.R && rgb.R < 102) && (77 < rgb.G && rgb.G < 91) && (25 < rgb.B && rgb.B < 55):
+                    case Netcode.NetColor rgb when (231 < rgb.R && rgb.R < 255) && (196 < rgb.G && rgb.G < 232) && (64 < rgb.B && rgb.B < 140):
                         loot.Add(new StardewValley.Object("542", 1)); //  calcite
                         break;
 
-                    case Netcode.NetColor rgb when (29 < rgb.R && rgb.R < 48) && (61 < rgb.G && rgb.G < 72) && (73 < rgb.B && rgb.B < 85):
+                    case Netcode.NetColor rgb when (74 < rgb.R && rgb.R < 122) && (155 < rgb.G && rgb.G < 184) && (163 < rgb.B && rgb.B < 217):
                         loot.Add(new StardewValley.Object("541", 1)); //aerinite
                         break;
 
 
-                    case Netcode.NetColor rgb when (58 < rgb.R && rgb.R < 69) && (61 < rgb.G && rgb.G < 69) && (69 < rgb.B && rgb.B < 83):
+                    case Netcode.NetColor rgb when (148 < rgb.R && rgb.R < 178) && (155 < rgb.G && rgb.G < 178) && (176 < rgb.B && rgb.B < 211):
                         loot.Add(new StardewValley.Object("544", 1)); //esperite
                         break;
 
 
 
-                    case Netcode.NetColor rgb when (52 < rgb.R && rgb.R < 64) && (50 < rgb.G && rgb.G < 62) && (70 < rgb.B && rgb.B < 86):
+                    case Netcode.NetColor rgb when (132 < rgb.R && rgb.R < 163) && (127 < rgb.G && rgb.G < 158) && (178 < rgb.B && rgb.B < 219):
                         loot.Add(new StardewValley.Object("545", 1)); //fluoropatite
                         break;
 
 
-                    case Netcode.NetColor rgb when (56 < rgb.R && rgb.R < 68) && (79 < rgb.G && rgb.G < 88) && (41 < rgb.B && rgb.B < 73):
+                    case Netcode.NetColor rgb when (143 < rgb.R && rgb.R < 173) && (201 < rgb.G && rgb.G < 224) && (104 < rgb.B && rgb.B < 186):
                         loot.Add(new StardewValley.Object("546", 1)); //geminite
                         break;
 
 
-                    case Netcode.NetColor rgb when (22 < rgb.R && rgb.R < 45) && (7 < rgb.G && rgb.G < 35) && (4 < rgb.B && rgb.B < 22):
+                    case Netcode.NetColor rgb when (200 < rgb.R && rgb.R < 230) && (30 < rgb.G && rgb.G < 70) && (30 < rgb.B && rgb.B < 70):
                         loot.Add(new StardewValley.Object("547", 1)); //helvite
                         break;
 
 
-                    case Netcode.NetColor rgb when (55 < rgb.R && rgb.R < 68) && (79 < rgb.G && rgb.G < 92) && (27 < rgb.B && rgb.B < 42):
+                    case Netcode.NetColor rgb when (140 < rgb.R && rgb.R < 173) && (201 < rgb.G && rgb.G < 234) && (69 < rgb.B && rgb.B < 107):
                         loot.Add(new StardewValley.Object("548", 1)); //jamborite
                         break;
 
 
-                    case Netcode.NetColor rgb when (71 < rgb.R && rgb.R < 82) && (71 < rgb.G && rgb.G < 95) && (5 < rgb.B && rgb.B < 29):
+                    case Netcode.NetColor rgb when (181 < rgb.R && rgb.R < 209) && (181 < rgb.G && rgb.G < 242) && (13 < rgb.B && rgb.B < 48):
                         loot.Add(new StardewValley.Object("549", 1)); //jagoite
                         break;
 
 
-                    case Netcode.NetColor rgb when (77 < rgb.R && rgb.R < 88) && (81 < rgb.G && rgb.G < 92) && (80 < rgb.B && rgb.B < 88):
+                    case Netcode.NetColor rgb when (196 < rgb.R && rgb.R < 224) && (206 < rgb.G && rgb.G < 234) && (204 < rgb.B && rgb.B < 224):
                         loot.Add(new StardewValley.Object("571", 1)); //limestone
                         break;
 
 
-                    case Netcode.NetColor rgb when (70 < rgb.R && rgb.R < 90) && (70 < rgb.G && rgb.G < 77) && (60 < rgb.B && rgb.B < 71):
+                    case Netcode.NetColor rgb when (178 < rgb.R && rgb.R < 210) && (178 < rgb.G && rgb.G < 196) && (153 < rgb.B && rgb.B < 181):
                         loot.Add(new StardewValley.Object("572", 1)); //soapstone
                         break;
 
 
-                    case Netcode.NetColor rgb when (20 < rgb.R && rgb.R < 37) && (7 < rgb.G && rgb.G < 18) && (0 < rgb.B && rgb.B < 7):
+                    case Netcode.NetColor rgb when (51 < rgb.R && rgb.R < 94) && (18 < rgb.G && rgb.G < 46) && (0 < rgb.B && rgb.B < 18):
                         loot.Add(new StardewValley.Object("572", 1)); //mudstone
                         break;
 
 
-                    case Netcode.NetColor rgb when (10 < rgb.R && rgb.R < 63) && (2 < rgb.G && rgb.G < 15) && (21 < rgb.B && rgb.B < 34):
+                    case Netcode.NetColor rgb when (25 < rgb.R && rgb.R < 100) && (5 < rgb.G && rgb.G < 40) && (53 < rgb.B && rgb.B < 110):
                         loot.Add(new StardewValley.Object("575", 1)); //obsidian
                         break;
 
 
-                    case Netcode.NetColor rgb when (42 < rgb.R && rgb.R < 52) && (75 < rgb.G && rgb.G < 89) && (63 < rgb.B && rgb.B < 75):
+                    case Netcode.NetColor rgb when (107 < rgb.R && rgb.R < 132) && (191 < rgb.G && rgb.G < 227) && (160 < rgb.B && rgb.B < 191):
                         loot.Add(new StardewValley.Object("576", 1)); //slate
                         break;
 
 
 
-                    case Netcode.NetColor rgb when (19 < rgb.R && rgb.R < 28) && (14 < rgb.G && rgb.G < 24) && (45 < rgb.B && rgb.B < 65):
+                    case Netcode.NetColor rgb when (48 < rgb.R && rgb.R < 71) && (36 < rgb.G && rgb.G < 61) && (115 < rgb.B && rgb.B < 166):
                         loot.Add(new StardewValley.Object("577", 1)); //fairy stone
                         break;
 
 
-                    case Netcode.NetColor rgb when (77 < rgb.R && rgb.R < 89) && (5 < rgb.G && rgb.G < 38) && (76 < rgb.B && rgb.B < 85):
+                    case Netcode.NetColor rgb when (196 < rgb.R && rgb.R < 227) && (13 < rgb.G && rgb.G < 97) && (194 < rgb.B && rgb.B < 217):
                         loot.Add(new StardewValley.Object("578", 1)); //star shard 
                         break;
 
 
-                    case Netcode.NetColor rgb when (34 < rgb.R && rgb.R < 49) && (75 < rgb.G && rgb.G < 82) && (34 < rgb.B && rgb.B < 60):
+                    case Netcode.NetColor rgb when (86 < rgb.R && rgb.R < 125) && (191 < rgb.G && rgb.G < 209) && (87 < rgb.B && rgb.B < 153):
                         loot.Add(new StardewValley.Object("538", 1)); //alamite
                         break;
 
