@@ -4,10 +4,10 @@
 
 Add more minerals to slime drops! Lots of minerals are only obtainable through geodes, and the Slime Hutch doesn't have much of a purpose apart from farming slimes... So why not give Slimes a chance to drop some minerals ? 
 
-Like vanilla mineral drops, the mineral dropped depends on the colour of the Slime, so a red-ish slime could drop a __helvite__, for example. The mod is a bit strict with colours, and some Slime colours aren't natural so you might have to breed some for a while to get a pink Slime for that sweet __Fairy Stone__!
+Like vanilla mineral drops, the mineral dropped depends on the colour of the Slime, so a red-ish slime could drop a __helvite__, for example. The mod is a bit strict with colours, and some Slime colours aren't natural so you might have to breed some for a while to get a pink Slime for that sweet __Star Shard__!
 
 It's also compatible with Generic Mod Config Menu, so that you can turn on/off the mod while in play, and can toggle which locations the mod includes. By default, only Slime Hutches are affected, to incentivize calculated breeding, but you can also include the Woods, or completely ignore location restrictions and make it work on all Slimes in the game.
-
+(a Slime can of course drop multiple types of minerals, for example, the requirements for a Fire Opal and a Fluoropatite overlap at some point and you can technically obtain both from the same Slime if the colour is well calibrated)
 
 __Plans for the future__ :
 - Include more minerals (while trying not to have similarly coloured minerals overlap, or make some too easy to obtain by just hatching Slimes of that colour)
