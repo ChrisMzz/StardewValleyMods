@@ -47,7 +47,7 @@ namespace SlimeMinerals
         private void OnSlimeKill(object sender, NpcListChangedEventArgs e)
         {
             // ignore if player hasn't loaded a save yet or if the location change isn't in the current location
-            if (!Context.IsWorldReady || !e.IsCurrentLocation || !Context.IsMainPlayer)
+            if (!Context.IsWorldReady || !e.IsCurrentLocation)
                 return;
 
             

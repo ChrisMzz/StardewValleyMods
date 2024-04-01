@@ -26,7 +26,7 @@ namespace RandomSlimes
         public override void Entry(IModHelper helper)
         {
 
-            helper.Events.Player.Warped += this.OnSlimeAdded; // display name of location if location has a slime
+            helper.Events.Player.Warped += this.OnSlimeAdded;
             //helper.Events.GameLoop.DayStarted += this.RandomizeGeneratedSlimes;
             helper.Events.GameLoop.GameLaunched += this.OnGameLaunched;
             Config = helper.ReadConfig<ModConfig>();
@@ -50,7 +50,7 @@ namespace RandomSlimes
         private void OnSlimeAdded(object sender, WarpedEventArgs e)
         {
             // ignore if player hasn't loaded a save yet or if the location change isn't in the current location
-            if (!Context.IsWorldReady || !Context.IsMainPlayer)
+            if (!Context.IsWorldReady)
                 return;
 
             GameLocation currentLocation = Game1.player.currentLocation;
