@@ -10,7 +10,7 @@ namespace SlimeMinerals
 
         public bool Anywhere { get; set; } = false;
 
-        public int Range { get; set; } = 30;
+        public int Range { get; set; } = 20;
 
     }
 }
