@@ -3,10 +3,8 @@
   "Author": "ChrisMzz",
   "Version": "0.1.0",
   "Description": "Add uses for legendary fish bait.",
-  "UniqueID": "ChrisMzz.legendaryfishbaitCP",
+  "UniqueID": "ChrisMzz.legendaryfishbait",
+  "EntryDll": "legendaryfishbait.dll",
   "MinimumApiVersion": "4.0.0",
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
-  },
   "UpdateKeys": [ "Nexus:33109" ]
 }
