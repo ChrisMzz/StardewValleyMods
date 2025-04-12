@@ -1,0 +1,12 @@
+{
+  "Name": "Legendary Fish Bait",
+  "Author": "ChrisMzz",
+  "Version": "0.1.0",
+  "Description": "Add uses for legendary fish bait.",
+  "UniqueID": "ChrisMzz.legendaryfishbaitCP",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": []
+}

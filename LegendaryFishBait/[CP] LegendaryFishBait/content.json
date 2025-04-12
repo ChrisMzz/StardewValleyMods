@@ -1,0 +1,86 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "FishShop", "Items" ],
+      "When": {
+        "SkillLevel:Fishing": "10",
+        "HasCaughtFish": "(O)163"
+      },
+      "Entries": {
+        "ChrisMzz.legendaryfishbait163": {
+          "Id": "ChrisMzz.legendaryfishbait163",
+          "ItemId": "FLAVORED_ITEM Bait 163",
+          "Price": 1500
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "FishShop", "Items" ],
+      "When": {
+        "SkillLevel:Fishing": "10",
+        "HasCaughtFish": "(O)159"
+      },
+      "Entries": {
+        "ChrisMzz.legendaryfishbait159": {
+          "Id": "ChrisMzz.legendaryfishbait159",
+          "ItemId": "FLAVORED_ITEM Bait 159",
+          "Price": 500
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "FishShop", "Items" ],
+      "When": {
+        "SkillLevel:Fishing": "10",
+        "HasCaughtFish": "(O)160"
+      },
+      "Entries": {
+        "ChrisMzz.legendaryfishbait160": {
+          "Id": "ChrisMzz.legendaryfishbait160",
+          "ItemId": "FLAVORED_ITEM Bait 160",
+          "Price": 300
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "FishShop", "Items" ],
+      "When": {
+        "SkillLevel:Fishing": "10",
+        "HasCaughtFish": "(O)775"
+      },
+      "Entries": {
+        "ChrisMzz.legendaryfishbait775": {
+          "Id": "ChrisMzz.legendaryfishbait775",
+          "ItemId": "FLAVORED_ITEM Bait 775",
+          "Price": 300
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "FishShop", "Items" ],
+      "When": {
+        "SkillLevel:Fishing": "10",
+        "HasCaughtFish": "(O)682"
+      },
+      "Entries": {
+        "ChrisMzz.legendaryfishbait682": {
+          "Id": "ChrisMzz.legendaryfishbait682",
+          "ItemId": "FLAVORED_ITEM Bait 682",
+          "Price": 300
+        }
+      }
+    }
+
+  ]
+}
