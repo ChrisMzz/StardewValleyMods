@@ -1,7 +1,7 @@
 
 # Random Slimes
 
-Randomize colours of Slimes in the Mines, Skull Caverns, Quarry Mines, Woods or just about anywhere!
+Randomize colours of Slimes (Big Slimes now included!) in the Mines, Skull Caverns, Quarry Mines, Woods or just about anywhere!
 
 Woods are turned off by default, but everything can be customized through Generic Mod Config Menu.
 

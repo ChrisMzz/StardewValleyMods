@@ -80,8 +80,14 @@ namespace RandomSlimes
 
             foreach (GreenSlime slime in currentLocation.characters.OfType<GreenSlime>())
             {
+                if (slime.Name == "Tiger Slime" && !Config.AffectTigerSlimes) { continue; }
                 slime.color.Value = new Microsoft.Xna.Framework.Color(rng.Next(255), rng.Next(255), rng.Next(255));
             }
+            foreach (BigSlime slime in currentLocation.characters.OfType<BigSlime>())
+            {
+                slime.c.Value = new Microsoft.Xna.Framework.Color(rng.Next(255), rng.Next(255), rng.Next(255));
+            }
+
 
 
         }

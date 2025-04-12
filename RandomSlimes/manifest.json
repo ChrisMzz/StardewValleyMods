@@ -1,7 +1,7 @@
 {
   "Name": "RandomSlimes",
   "Author": "ChrisMzz",
-  "Version": "1.0.1",
+  "Version": "1.2.0",
   "Description": "Randomizes Slime colours",
   "UniqueID": "ChrisMzz.randomslimes",
   "EntryDll": "randomslimes.dll",
